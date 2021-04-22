@@ -1,5 +1,5 @@
 """
-Created on Sun Apr 04 2021 17:00:15 
+Created on Sun Feb  9 17:00:15 2021
 
 @author: naufalovich
 """
@@ -14,7 +14,7 @@ import scipy.linalg
 
 # given data
 F = 1000 # molar flow. kmol/h
-T = 85. + 273.15  # vessel temperature, converted to K
+T = 87. + 273.15  # vessel temperature, converted to K
 P = 1.01 # vessel pressure, bar
 Z = np.array([0.75, 0.25]) # overall molar fraction component
 
