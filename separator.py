@@ -20,12 +20,12 @@ Z = np.array([0.75, 0.25]) # overall molar fraction component
 
 # define component thermodynamical properties
 benzene = component(name='benzene', Tc=562.2, Pc=48.98, Zc=0.271, Vc=259.0, w=0.210,
-                        Ant=[13.7819, 2726.81, 217.572],
-                        GC={'CH=C':6})
+                        Ant=[4.72583, 1660.652, -1.461],
+                        GC={'ACH':6})
 
 toluene = component(name='toluene', Tc=591.8, Pc=41.06, Zc=0.264, Vc=316, w=0.262,
-                      Ant=[13.9320, 3056.96, -217.625],
-                      GC={'CH=C':6, 'CH3':1})
+                      Ant=[4.23679, 1426.448, -45.957],
+                      GC={'ACH':5, 'ACCH3':1})
 
 # setting up eos
 mix = mixture(benzene, toluene) #mix given component
